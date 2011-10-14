@@ -13,9 +13,9 @@ namespace Google.ClientLogin.Example
         public void GetAuthToken()
         {
             string URL = "https://www.google.com/accounts/ClientLogin";
-            string email = "your_account";
-            string password = "your_password";
-            string source = "your_application_name";
+            string email = "apis@location3.com";
+            string password = "L3MP@ssw0rd";
+            string source = "Location3-MediaAgent-v1";
 
             string httpBody =
                 string.Format(
